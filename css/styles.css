@@ -25,6 +25,7 @@ h1 {
   font-size: 72px;
   font-family: 'Satisfy', cursive;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h2 {
@@ -56,17 +57,20 @@ margin-top: 150px;
 .seconddiv {
   /*background-color: rgb(176, 198, 207);*/
   position: relative;
+  padding-top: 50px;
+  padding-bottom:  50px;
   text-align: left;
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
 .threediv {
   /*background-color: rgb(176, 198, 207);*/
   padding-top: 50px;
+  padding-bottom:  50px;
   position: relative;
   text-align: left;
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
@@ -77,16 +81,14 @@ margin-top: 150px;
 
 .heart {
   float: left;
-  object-fit: cover;
-  max-width: 125px;
+  width: 20%;
   margin-right: 30px;
 }
 
 .star {
  
   float: right;
-  object-fit: cover;
-  max-width: 125px;
+  width: 20%;
   margin-left: 30px;
 }
 
